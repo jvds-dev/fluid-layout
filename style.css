@@ -20,42 +20,40 @@ video{
     margin: 0 auto;
     width: 69.5%; /* +/- 960 */
 }
-h1 {
-    font-size:2em  /* 32/16 = 2 32px */;
-}
+    h1 {
+        font-size:2em  /* 32/16 = 2 32px */;
+    }
 
-.content {
-    margin: 1.5625% 0; /* 15 */
-}
+    .content {
+        margin: 1.5625% 0; /* 15 */
+    }
 
-.content-main{
-    float: left;
-    /* width: 593px; */
-    width: 61.7708%;
+    .content-main{
+        float: left;
+        /* width: 593px; */
+        width: 61.7708%;
 }
-
-.hero {
-    margin: 4.2158% 0 /* 25/593=0.042158 */;
-}
-.brief {
-    margin: 1% 0; /* 5/593 = 0.008431 */
-}
+        .hero {
+            margin: 4.2158% 0 /* 25/593=0.042158 */;
+        }
+        .brief {
+            margin: 1% 0; /* 5/593 = 0.008431 */
+        }
 
 .last-contents {
     font-size: .75em; /* 12/16 */
 }
-
-.last-content-call{
-    float: left;
-    margin: 2.5295% 2.5295% 2.5295% 0; /* 15/593 = 2.5295 */
-    width: 47.2175%; /* 280/593=47.2175% */
-}
-    .last-content-call .secondary-title {
-        margin-bottom: 0;
+    .last-content-call{
+        float: left;
+        margin: 2.5295% 2.5295% 2.5295% 0; /* 15/593 = 2.5295 */
+        width: 47.2175%; /* 280/593=47.2175% */
     }
-        .last-content-call .brief{
-            margin: 1.7857%; /* 5/280=0.0178571 */
+        .last-content-call .secondary-title {
+            margin-bottom: 0;
         }
+            .last-content-call .brief{
+                margin: 1.7857%; /* 5/280=0.0178571 */
+            }
 
 .content-sidebar{
     background-color: #f0f0f0;
@@ -90,3 +88,19 @@ h1 {
     text-align: center;
     width: 100%;
 }
+
+/* @media all and (max-width: 640px) {
+    .content-main,
+    .content-sidebar {
+        float: none;
+        display: block;
+        width: 100%;
+    }
+} */
+
+@media(max-width: 640px) {
+    body {
+        background-color: red;
+    }
+}
+
