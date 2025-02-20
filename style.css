@@ -19,6 +19,7 @@ video{
 .container{
     margin: 0 auto;
     width: 69.5%; /* +/- 960 */
+    max-width: 960px;
 }
     h1 {
         font-size:2em  /* 32/16 = 2 32px */;
@@ -89,18 +90,23 @@ video{
     width: 100%;
 }
 
-/* @media all and (max-width: 640px) {
+@media all and (max-width: 640px) {
     .content-main,
     .content-sidebar {
         float: none;
         display: block;
         width: 100%;
     }
-} */
+    .last-content-call{
+        float: none;
+        width: auto;
+    }
+}
 
-@media(max-width: 640px) {
-    body {
-        background-color: red;
+@media all and (max-width: 320px){
+    .main-nav li{
+        float: none;
+        width: auto;
     }
 }
 
